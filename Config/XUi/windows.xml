@@ -1,0 +1,41 @@
+<configs>
+
+	<!-- ============================================================ -->
+	<!-- Forge input: 2 slots to 4 slots                              -->
+	<!-- Each slot row is 75px, so the window and its backgrounds     -->
+	<!-- grow by 150px to make room for the two extra rows.           -->
+	<!-- ============================================================ -->
+
+	<set xpath="/windows/window[@name='windowForgeInput']/@height">354</set>
+	<set xpath="/windows/window[@name='windowForgeInput']/sprite[@name='backgroundMain']/@height">303</set>
+	<set xpath="/windows/window[@name='windowForgeInput']/rect[@name='content']/@height">303</set>
+	<set xpath="/windows/window[@name='windowForgeInput']/rect[@name='content']/grid/@rows">4</set>
+
+	<!-- Stretch the material readout panel (iron/brass/lead/glass/stone/clay list) to match -->
+	<set xpath="/windows/window[@name='windowForgeInput']/rect[@name='content2']/@height">298</set>
+	<set xpath="/windows/window[@name='windowForgeInput']/rect[@name='content2']/grid/@cell_height">48</set>
+
+	<!-- ============================================================ -->
+	<!-- Crafting / scrapping queue: 4 slots to 10 slots (2 rows x 5) -->
+	<!-- This is the queue scrapped items land in, in the backpack    -->
+	<!-- and at every workstation.                                    -->
+	<!-- ============================================================ -->
+
+	<set xpath="/windows/window[@name='windowCraftingQueue']/@height">153</set>
+	<set xpath="/windows/window[@name='windowCraftingQueue']/rect/@pos">19,0</set>
+	<set xpath="/windows/window[@name='windowCraftingQueue']/rect/@width">378</set>
+	<set xpath="/windows/window[@name='windowCraftingQueue']/rect/grid[@name='queue']/@cols">5</set>
+	<set xpath="/windows/window[@name='windowCraftingQueue']/rect/grid[@name='queue']/@rows">2</set>
+
+	<!-- ============================================================ -->
+	<!-- Workstation output: 6 slots to 9 slots (3 rows x 3)          -->
+	<!-- Shared by the workbench, forge, campfire, chemistry station  -->
+	<!-- and cement mixer.                                            -->
+	<!-- ============================================================ -->
+
+	<set xpath="/windows/window[@name='windowOutput']/@height">276</set>
+	<set xpath="/windows/window[@name='windowOutput']/rect[@name='content']/@height">228</set>
+	<set xpath="/windows/window[@name='windowOutput']/rect[@name='content']/sprite[@name='backgroundMain']/@height">228</set>
+	<set xpath="/windows/window[@name='windowOutput']/rect[@name='content']/grid[@name='inventory']/@rows">3</set>
+
+</configs>

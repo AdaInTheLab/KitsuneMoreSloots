@@ -2,7 +2,7 @@
 
 More slots where it counts, for 7 Days to Die V3.0.x.
 
-- **Forge input:** 2 slots to 4
+- **Forge input:** 2 slots to 3 (an engine limit: the game hardcodes 3 raw input slots; vanilla only displays 2 of them)
 - **Crafting / scrapping queue:** 4 slots to 10 (2 rows of 5)
 - **Workstation output:** 6 slots to 9 (workbench, forge, campfire, chemistry station, cement mixer)
 

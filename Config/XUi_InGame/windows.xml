@@ -1,19 +1,22 @@
 <configs>
 
 	<!-- ============================================================ -->
-	<!-- Forge input: 2 slots to 4 slots                              -->
-	<!-- Each slot row is 75px, so the window and its backgrounds     -->
-	<!-- grow by 150px to make room for the two extra rows.           -->
+	<!-- Forge input: 2 slots to 3 slots                              -->
+	<!-- 3 is an ENGINE LIMIT: TileEntityWorkstation hardcodes the    -->
+	<!-- input array as 3 + materialNames.Length and starts the       -->
+	<!-- material stockpile at index 3, so a 4th UI cell renders      -->
+	<!-- directly over the iron stockpile slot. Vanilla only shows 2  -->
+	<!-- of the engine's 3 raw slots; this surfaces the third.        -->
 	<!-- ============================================================ -->
 
-	<set xpath="/windows/window[@name='windowForgeInput']/@height">354</set>
-	<set xpath="/windows/window[@name='windowForgeInput']/sprite[@name='backgroundMain']/@height">303</set>
-	<set xpath="/windows/window[@name='windowForgeInput']/rect[@name='content']/@height">303</set>
-	<set xpath="/windows/window[@name='windowForgeInput']/rect[@name='content']/grid/@rows">4</set>
+	<set xpath="/windows/window[@name='windowForgeInput']/@height">279</set>
+	<set xpath="/windows/window[@name='windowForgeInput']/sprite[@name='backgroundMain']/@height">228</set>
+	<set xpath="/windows/window[@name='windowForgeInput']/rect[@name='content']/@height">228</set>
+	<set xpath="/windows/window[@name='windowForgeInput']/rect[@name='content']/grid/@rows">3</set>
 
 	<!-- Stretch the material readout panel (iron/brass/lead/glass/stone/clay list) to match -->
-	<set xpath="/windows/window[@name='windowForgeInput']/rect[@name='content2']/@height">298</set>
-	<set xpath="/windows/window[@name='windowForgeInput']/rect[@name='content2']/grid/@cell_height">48</set>
+	<set xpath="/windows/window[@name='windowForgeInput']/rect[@name='content2']/@height">223</set>
+	<set xpath="/windows/window[@name='windowForgeInput']/rect[@name='content2']/grid/@cell_height">36</set>
 
 	<!-- ============================================================ -->
 	<!-- Crafting / scrapping queue: 4 slots to 10 slots (2 rows x 5) -->

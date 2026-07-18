@@ -1,6 +1,6 @@
 # KitsuneMoreSloots
 
-More slots where it counts, for 7 Days to Die V2.x.
+More slots where it counts, for 7 Days to Die V3.0.x.
 
 - **Forge input:** 2 slots to 4
 - **Crafting / scrapping queue:** 4 slots to 10 (2 rows of 5)

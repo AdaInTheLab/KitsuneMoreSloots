@@ -1,0 +1,13 @@
+<configs>
+
+	<!-- ============================================================ -->
+	<!-- Junk drone storage: 16 slots to 32 (8 x 2 to 8 x 4)          -->
+	<!-- The drone sizes its bag from this container's X * Y, then    -->
+	<!-- adds 8 per cargo mod, so keeping it 8 wide means each cargo  -->
+	<!-- mod still adds exactly one full row.                         -->
+	<!-- Server-side data: the server needs this mod for it to apply. -->
+	<!-- ============================================================ -->
+
+	<set xpath="/lootcontainers/lootcontainer[@name='roboticDrone']/@size">8,4</set>
+
+</configs>

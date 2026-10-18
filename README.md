@@ -20,3 +20,7 @@ Drop the `KitsuneMoreSloots` folder into your `Mods` folder. Needed on **both se
 - Changing workstation slot counts can clear items sitting inside already-placed workstations on first load. Empty your forges before updating a live save.
 - The drone storage size is server-side data (`loot.xml`), so it only takes effect when the server runs the mod. Drones grow to the new size the next time they load; removing the mod later shrinks them back to 16 slots, and anything in the extra slots is lost, so empty your drone first.
 - Part of the Kitsune QoL family: [KitsuneBackpack](https://github.com/AdaInTheLab/KitsuneBackpack), [KitsuneStorage](https://github.com/AdaInTheLab/KitsuneStorage).
+
+## License
+
+[CC BY-NC-SA 4.0](LICENSE), with an extra permission for servers that make money: see [NOTICE.md](NOTICE.md). In short: play it, change it and share it, with credit, not for sale, and with changed versions under the same license.
